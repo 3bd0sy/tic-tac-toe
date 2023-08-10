@@ -29,24 +29,6 @@ function App() {
   }, [Divs]);
 
 
-
-  // function init(index) {
-  //   if (Divs[index] !== "X" && Divs[index] !== "O") {
-  //     let newDivs = [...Divs];
-  //     newDivs[index] = PlayerCode[playerID];
-  //     setDivs(newDivs);
-  //     if (playerID === 0) {
-  //       setPlayerID(1);
-  //       setPlayerName("O");
-  //     } else {
-  //       setPlayerID(0);
-  //       setPlayerName("X");
-  //     }
-  //     ckeckWIN()
-  //   }
-  // }
-
-
   function ckeckWIN() {
     if (con) {
       if (
