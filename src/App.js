@@ -22,7 +22,7 @@ function App() {
 
     }
   }
-
+ 
 
   function ckeckWIN() {
     // Use the state variable Divs instead of the DOM elements
